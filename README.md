@@ -2,7 +2,7 @@
 
 **Site address :** https://adoptium.net/temurin/releases/
 
-**YUM Installation**
+**YUM Installation** —
 
 `[anup@c9-250-server ~]$ sudo yum install java-11-openjdk`
 
@@ -14,7 +14,7 @@
 
 `[anup@c9-250-server ~]$ javac -version`
 
-**Multiple Java Installation**
+**Multiple Java Installation** —
 
 `[anup@c9-250-server ~]$ sudo yum install java-17-openjdk-headless`
 
