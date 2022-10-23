@@ -22,7 +22,7 @@
 
 `[anup@c9-250-server ~]$ javac -version`
 
-**Change required version**
+**Change required version** —
 
 `[anup@c9-250-server ~]$ update-alternatives --config java`
 
@@ -30,7 +30,7 @@
 
 `[anup@c9-250-server ~]$ javac -version`
 
-**Install Java Devel**
+**Install Java Devel** —
 
 `[anup@c9-250-server ~]$ java -version`
 
@@ -38,7 +38,7 @@
 
 `[anup@c9-250-server ~]$ javac -version`
 
-**Setting up $JAVA_HOME and $PATH**
+**Setting up $JAVA_HOME and $PATH** —
 
 `[anup@c9-250-server ~]$ echo $JAVA_HOME`
 
@@ -49,8 +49,8 @@
 `[anup@c9-250-server ~]$ update-alternatives --display java`
 
 `[anup@c9-250-server ~]$ ls -ltr /usr/lib/jvm/`
-
-**Setup One**
+ 
+**Setup One** —
 
 `[anup@c9-250-server ~]$ sudo nano /etc/environment`
 
@@ -61,7 +61,7 @@
 
 `[anup@c9-250-server ~]$ echo $JAVA_HOME`
 
-**Setup Two**
+**Setup Two** —
 
 `[anup@c9-250-server ~]$ export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-11.0.17.0.7-0.2.ea.el9.x86_64/`
 
@@ -73,7 +73,7 @@
 
 `[anup@c9-250-server ~]$ echo $JAVA_HOME`
 
-**Setup Three**
+**Setup Three** —
 
 `[anup@c9-250-server ~]$ nano .bash_profile`
 
@@ -86,7 +86,7 @@
 
 `[anup@c9-250-server ~]$ echo $JAVA_HOME`
 
-**Uninstall**
+**Uninstall** —
 
 `[anup@c9-250-server ~]$ sudo yum remove java-11-openjdk-headless.x86_64`
 
