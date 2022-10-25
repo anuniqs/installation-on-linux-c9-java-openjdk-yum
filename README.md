@@ -2,6 +2,12 @@
 
 **Site address :** https://adoptium.net/temurin/releases/
 
+`[anup@c9-250-server ~]$ sudo dnf update`
+
+`[anup@c9-250-server ~]$ sudo dnf install epel-release epel-next-release`
+
+
+
 **YUM Installation,**
 
 `[anup@c9-250-server ~]$ sudo yum install java-11-openjdk`
